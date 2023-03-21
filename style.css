@@ -1,0 +1,25 @@
+.error{
+    padding: 10px;
+    color: red;
+    border: 1px dotted red;
+    
+}
+
+div h1{
+    color: blue;
+    text-align: center;
+    background-color: lightblue;
+    
+}
+div p{
+    font-size: 20px;
+    color: red;
+}
+
+.success{
+    padding: 10px;
+    color: rgb(142, 142, 255);
+    border: 1px dotted blue;
+}
+
+

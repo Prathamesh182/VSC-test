@@ -1,0 +1,18 @@
+[
+    {
+        "title":"js zero to hero",
+        "likes":300
+    },
+    {
+        "title":"java zero to hero",
+        "likes":200
+    },
+    {
+        "title":"C++ zero to hero",
+        "likes":150
+    },
+    {
+        "title":"python zero to hero",
+        "likes":80
+    }
+]
