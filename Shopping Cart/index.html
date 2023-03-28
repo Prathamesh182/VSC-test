@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <br>
+    <label>Select Product</label><br>
+    <select name="Biscuits" id="item" >
+    <option value="Parle Biscuit">Parle Biscuit</option>
+    <option value="Sunfeast Biscuit">Sunfeast Biscuit</option>
+    <option value="Nestle Biscuit">Nestle Biscuit</option>
+    <option value="Britania Biscuit">Britania Biscuit</option>
+</select><br><br>
+    <label>Unit Price:</label><br>
+    <input type="number" readonly><br><br>
+    <label>Select Quantity</label><br>
+    <input type="number" id="quantity" name="quantity" min="0" max="50"><br><br>
+    <button>Add to Cart</button>
+    
+
+    <h2>Shopping List</h2>
+
+    <table id="tbody ">
+        <tr>
+            <td>Product Name</td>
+            <td>Quantity</td>
+            <td>Unit Price</td>
+            <td>Sub Total</td>
+            <td>Remove</td>
+            
+        </tr>
+    </table>
+
+    <h4 id="total">Total Price:  </h4>
+    <!-- <input type="number" readonly id="total"> -->
+    
+
+    <script src="shop.js"></script>
+
+</body>
+</html

@@ -19,6 +19,7 @@ function startF() {
 
     const funcToAdd = (data) => {
         let html = ``;
+        table.innerHTML = html;
         data.forEach(d => {
             html = `<tr>
             <td>${d.rollNo}</td>
